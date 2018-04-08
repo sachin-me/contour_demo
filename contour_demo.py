@@ -80,7 +80,7 @@ plt.figure()
 im = plt.imshow(Z, interpolation = 'bilinear', origin = 'lower',
                 cmap = cm.gray, extent = (-3, 3, -2, 2)
                 )
-levels = np.arange(-1.2, 1.6, 0.1)
+levels = np.arange(-1.2, 1.6, 0.2)
 CS = plt.contour(Z, levels,
                  origin = 'lower',
                  linewidths = 2,
